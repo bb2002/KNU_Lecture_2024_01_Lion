@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black !important;
+    width: 100%;
+    height: 100%;
+}
+
+.mapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mapper > h1 {
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.mapper > h1 > span {
+    color: rgb(230, 126, 34);
+    cursor: pointer;
+}
+
+.mapper > img {
+    border-radius: 100%;
+    border: 3px solid silver;
+}
+
+.modal-body > p {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px){
+    .mapper > h1 {
+        font-size: 1.125rem !important;
+        color: color !important;
+    }
+
+    .mapper > img {
+        width: 180px;
+    }
+}
